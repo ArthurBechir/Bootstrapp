@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500');
+
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: "Poppins",sans-serif;
+            }
+
+            body{
+                width: 100%;
+                height: 100vh;
+                background-color: rgb(41, 41, 41);
+            }
+
+            section{
+                padding: 200px 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+            }
+
+            .card{
+                max-height: 500px;
+            }
+            
+            .img{
+                max-height: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Brinquedos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+          <section>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/uno.webp" class="card-img-top img" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Super UNO MILLE</h5>
+                    <p class="card-text">Simplesmente o melhor carro da HITÓRIA.</p>
+                    <a href="telaproduto.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/download.jfif" class="card-img-top img" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Pula Pirata</h5>
+                    <p class="card-text">Jogue com os amiguinhos e veja quem faz o pirata pular</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/njr.webp" class="card-img-top img" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Boneco do Neymar</h5>
+                    <p class="card-text">Boneco da lenda Neymar. (Incluso áudio errei fui mlk).</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+           
+          </section>
+            
+        
+    </body>
+</html>
